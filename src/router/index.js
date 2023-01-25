@@ -16,6 +16,13 @@ const routes = [
        import("../components/About.vue"),
 
     }, 
+    {
+        path: "/blog/:id", 
+        name: "blog-id",
+       component: ()=>
+       import("../components/About.vue"),
+
+    }, 
 ];
 export default createRouter({
     history:createWebHashHistory("/"),
